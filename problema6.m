@@ -1,7 +1,7 @@
 function [C] = problema6(dominioX, rangoA, rangoB, typeUnion)
 %Función que recibe el conjunto dominio x, el rango A, el rango B, de dos conjunto difusos.
 % Un parámetro adicional que indique el tipo de intersección que se quiere hacer:
-%Opciones disponibles Mazimo, SumaAlgebraico, SumaAcotada
+%Opciones disponibles Maximo, SumaAlgebraico, SumaAcotada
     
     if strcmp(typeUnion, 'Maximo')
         A = trimf(dominioX, rangoA);
