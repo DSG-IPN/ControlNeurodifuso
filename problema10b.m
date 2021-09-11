@@ -1,4 +1,5 @@
 function [] = problema10b(a,k)
+figure
 x = -1:0.1:10;
 y=[];
 [f,c]=size(x);
